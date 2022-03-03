@@ -24,8 +24,8 @@ function loadDocument(){
                 console.log("Price: " + item.price.amount);
             }
         });
-        console.log(items.length);
-        createDocument("Número de productos menores a 10000: " + items);
+        console.log("Número de productos menores a 10000: " + items.length);
+        createDocument(items);
     });
 }
 
